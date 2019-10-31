@@ -1,0 +1,13 @@
+When i see this details i start thinking what important to me to check :
+How many requests are handled in a period of time (QPS).
+Average response time.
+Request rate.
+Error rate.
+Network traffic (packet lost ) due to massive amount of request .
+How many resources (CPU, memory, I/O) are being used.
+
+The solution i will use for this :
+Prometheus + Grafana with alerts ( collecting all the relevant information and can be displayed in Grafana Dashboard).
+
+Challengaes :
+I think to verify that all the reuests arriving to the destination to monitor and check the logs alerts and minimize the problems to minimum.
