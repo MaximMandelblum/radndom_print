@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
+
 import random
-for i in range(10):
-    print random.randint(1, 10)
+print(random.sample(range(0, 10), 10))
